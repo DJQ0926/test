@@ -254,6 +254,15 @@ void C作业综合实验View::Onadd()
 	void C作业综合实验View::Onsearch()
 	{
 		// TODO: 在此添加命令处理程序代码
+		search sea;
+		int r = sea.DoModal();
+		if (r == IDOK)
+		{
+			m_pSet->m_strFilter =sea.y ;
+			m_pSet->Requery();
+			UpdateData(false);
+
+		}
 	}
 
 

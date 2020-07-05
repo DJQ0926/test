@@ -15,7 +15,7 @@ public:
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_DIALOG3 };
 #endif
-
+	CString y;
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV Ö§³Ö
 
